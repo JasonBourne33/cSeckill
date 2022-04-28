@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@MapperScan("com.example.cseckill")
+@MapperScan("com.example.mapper")
 //@EnableSwagger2
 public class CSeckillApplication {
 

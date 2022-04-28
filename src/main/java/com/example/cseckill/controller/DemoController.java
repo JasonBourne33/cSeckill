@@ -5,6 +5,7 @@ package com.example.cseckill.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 测试类
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date 2022/3/1 4:22 下午
  * @ClassName: DemoController
  */
-@Controller
+@RestController
 @RequestMapping("/demo")
 //@Api(value = "demo", tags = "demo测试类")
 public class DemoController {

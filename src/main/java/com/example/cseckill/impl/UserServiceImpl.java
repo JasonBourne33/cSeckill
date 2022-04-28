@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * @author chaos
  * @date 2022-04-27
  */
-@Service
-public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
-
-}
+//@Service
+//public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
+//
+//}
