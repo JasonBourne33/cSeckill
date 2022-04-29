@@ -1,7 +1,9 @@
 package com.example.cseckill.vo;
 
 
-import javax.validation.constraints.NotNull;
+import lombok.Data;
+
+//import javax.validation.constraints.NotNull;
 
 /**
  * 登录传参
@@ -10,13 +12,14 @@ import javax.validation.constraints.NotNull;
  * @date 2022/3/2 2:01 下午
  * @ClassName: LoginVo
  */
+@Data
 public class LoginVo {
 
-    @NotNull
+//    @NotNull
 //    @IsMobile
     private String mobile;
 
-    @NotNull
+//    @NotNull
 //    @Length(min = 32)
     private String password;
 

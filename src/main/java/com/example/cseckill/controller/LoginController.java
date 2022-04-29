@@ -3,6 +3,7 @@ package com.example.cseckill.controller;
 //import com.example.seckilldemo.service.ITUserService;
 //import com.example.seckilldemo.vo.LoginVo;
 //import com.example.seckilldemo.vo.RespBean;
+import com.example.cseckill.vo.LoginVo;
 import com.example.cseckill.vo.RespBean;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -40,6 +41,7 @@ public class LoginController {
      * 跳转登录页面
      *
      * @param
+     * @param
      * @return java.lang.String
      * @author LC
      * @operation add
@@ -55,8 +57,10 @@ public class LoginController {
 //    @ApiOperation("登录接口")
 //    @RequestMapping(value = "/doLogin", method = RequestMethod.POST)
 //    @ResponseBody
+////    public RespBean doLogin(LoginVo loginVo) {
 //    public RespBean doLogin(@Valid LoginVo loginVo, HttpServletRequest request, HttpServletResponse response) {
 //        log.info("{}", loginVo);
+//        return null;
 //        return tUserService.doLongin(loginVo, request, response);
 //    }
 }
